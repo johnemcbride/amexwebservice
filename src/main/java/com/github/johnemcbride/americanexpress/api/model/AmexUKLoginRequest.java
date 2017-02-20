@@ -27,7 +27,6 @@ public class AmexUKLoginRequest {
 		super();
 		this.user = username;
 		this.password = password;
-		System.out.println("requesting"+username+password);
 	}
 
 	public static String getoSversion() {
